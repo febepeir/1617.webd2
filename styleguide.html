@@ -48,6 +48,7 @@
     <link rel="stylesheet" media="all" href="css/typography.css">
     <link rel="stylesheet" media="all" href="css/grid.css">
     <link rel="stylesheet" media="all" href="css/styleguide.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Modernizr: feature detection -->
     <script src="vendor/modernizr/modernizr.min.js"></script>
 </head>
@@ -58,7 +59,7 @@
     <div class="grid__wrapper">
       <div class="grid__container">
         <div class="grid__row">
-          <div class="grid__column-5">
+          <div class="grid__column-12">
             <article class="news-article">
               <img class="logo" src="images/logo.png" alt="logo"/>
             </article>
@@ -67,9 +68,36 @@
       </div>
     </div>  
 <!--begin hoodfnavigatie-->
-    <div class="grid__wrapper">
+<!--    <div class="grid__wrapper">
       <div class="grid__container">
         <div class="grid__row">
+          <div class="grid__column-2">
+          <nav>
+            <ul>
+              <li>
+                <a href="#">Portfolio</a>
+              </li>
+              <li>
+                <a href="#">About</a>
+              </li>
+              <li>
+                <a href="#">Team</a>
+              </li>
+              <li>
+                <a href="#">Contact</a>
+              </li>
+            </ul>
+          </nav>
+          </div>
+        </div>
+      </div>
+    </div> 
+-->     
+<!--begin inhoud-->
+  <div class="grid__wrapper">
+    <div class="grid__container">
+      <div class="grid__row">
+        <div class="grid__column-2">
           <nav>
             <ul>
               <li>
@@ -87,13 +115,7 @@
             </ul>
           </nav>
         </div>
-      </div>
-    </div>      
-<!--begin inhoud-->
-  <div class="grid__wrapper">
-    <div class="grid__container">
-      <div class="grid__row">
-        <div class="grid__column-6">
+        <div class="grid__column-5">
           <article class="news-article">
             <h1>Titel</h1>
             <h2>Subtitel</h2>
@@ -109,26 +131,45 @@
               Duis autem vel eum vulputate velit esse vel illum dolore eu feugi consectetuer 
               adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. 
             </p>
+
+            <h1>Afbeelding</h1>
+            <img class="foto grayscale" src="images/macaron.jpg"/>
           </article>
         </div>
-        <div class="grid__column-6">
+        <div class="grid__column-5">
           <article class="newproduct-article">
             <h1>Kleuren</h1>
               <div class="colorpalette">
                 <div class="colorstyle color_a">#1f2327</div>
                 <div class="colorstyle color_b">#6a6d74</div>
-                <div class="colorstyle color_c">#edeff1</div>
+                <div class="colorstyle color_c">#f6f7f8</div>
                 <div class="colorstyle color_d">#3f2931</div>
                 <div class="colorstyle color_e">#715860</div>
               </div>
+
             <h1>Icoontjes</h1>
-            <p>Wat tekst</p>
+              <p>
+							  <i class="fa fa-instagram fa-3x" aria-hidden="true"></i>
+                <i class="fa fa-facebook fa-3x" aria-hidden="true"></i>
+                <i class="fa fa-behance fa-3x" aria-hidden="true"></i>
+              </p>
+
             <h1>Lettertypes</h1>
-            <p>Montserrat</p>
-            <p class="bold">Montserrat</p>
-            <p>Lato</p>
-            <p class="bold">Lato</p>
-            <p>Lato</p>
+              <p>Montserrat<br><b>Montserrat</b></p>
+              <p>Lato<br><b>Lato</b></p>
+
+            <h1>Contactformulier</h1>
+              <form>
+                <p>Naam:<br>
+                <input type="text" name="naam" size="40"/>
+                </p>
+                <p>E-mailadres:<br>
+                <input type="text" name="e-mail" size="40"/>
+                </p>
+                <p>Bericht<br>
+                <textarea name="bericht" cols="43" rows="10"></textarea>
+                </p>
+              </form>
           </article>
         </div>
         <div class="grid__column-4">
@@ -136,18 +177,34 @@
       </div>
     </div>
   </div> 
+  
 <!--footer-->
   <div class="grid__wrapper">
     <div class="grid__container">
       <div class="grid__row">
-        <div class="grid__column-12">
+        <div class="grid__column-12 footer">
           <footer>
-
+            <div class="grid__row">
+						  <div class="grid__column-4">
+							  <p class="footermenu">Portfolio / About / Team / Contact</p>
+						  </div>
+						  <div class="grid__column-4">
+							  <p></p>
+						  </div>
+						  <div class="grid__column-4">
+                <p>
+							    <i class="fa fa-instagram" aria-hidden="true"></i>
+                  <i class="fa fa-facebook" aria-hidden="true"></i>
+                  <i class="fa fa-behance" aria-hidden="true"></i>
+                </p>
+						  </div>
+            </div>
           </footer>
         </div>
       </div>
     </div>
-  </div> 
+  </div>
+
   </body>
 
 </html>
