@@ -48,31 +48,101 @@
     <link rel="stylesheet" media="all" href="css/typography.css">
     <link rel="stylesheet" media="all" href="css/grid.css">
     <link rel="stylesheet" media="all" href="css/styleguide.css">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Modernizr: feature detection -->
     <script src="vendor/modernizr/modernizr.min.js"></script>
   </head>
 
-  <body>
+<body>
     <div class="grid__wrapper">
       <div class="grid__container">
         <div class="grid__row">
           <div class="grid__column-12">
             <article class="news-article">
-              <img class="indexlogo" src="images/logo.png" alt="logo"/>
-            </article>
-          </div>
-        </div>
-        <div class="grid__row">
-          <div class="grid__column-12">
-            <article class="news-article">
-              <div class="indexbutton">
-                <a href="#" class="button enterbutton">Enter</a>
-              </div>
+              <img class="logo" src="images/logo.png" alt="logo"/>
             </article>
           </div>
         </div>
       </div>
     </div> 
-  </body>
+    
+    <div class="grid__wrapper">
+        <div class="grid__container">
+            <div class="grid__row">
+                <div class="grid__column-2">
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="portfolio.html">Portfolio</a>
+                            </li>
+                            <li>
+                                <a href="about.html">About</a>
+                            </li>
+                            <li>
+                                <a href="team.html">Team</a>
+                            </li>
+                            <li>
+                                <a href="contact.html">Contact</a>
+                            </li>
+                            <li>
+                                <a href="styleguide.html">Styleguide</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="grid__column-6">
+                    <h1>Contact info</h1>
+                        <p><i class="fa fa-envelope-o " aria-hidden="true"></i>flow@info.be</p>
+                        <p><i class="fa fa-mobile fa-2x" aria-hidden="true"></i></i>04/71.73.73.23</p>
+                        <p><i class="fa fa-map-o" aria-hidden="true"></i></i></i>Zonneveld 47<br>9820 Merelbeke</p>
+                     <h1>Contactformulier</h1>
+                        <form>
+                            <p>Naam:<br>
+                            <input type="text" name="naam" size="40"/>
+                            </p>
+                            <p>E-mailadres:<br>
+                            <input type="text" name="e-mail" size="40"/>
+                            </p>
+                            <p>Bericht<br>
+                            <textarea name="bericht" cols="43" rows="10"></textarea>
+                            </p>
+                        </form>
+                        <a href="#" class="button">Verzend</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="grid__wrapper">
+    <div class="grid__container">
+      <div class="grid__row">
+        <div class="grid__column-12 footer">
+          <footer>
+            <div class="grid__row">
+			    <div class="grid__column-4">
+                    <div class="footernav">
+                    <a href="#" class="button--footer">Portfolio</a>
+                    <a href="#" class="button--footer">About</a>
+                    <a href="#" class="button--footer">Team</a>
+                    <a href="#" class="button--footer">Contact</a>
+                    </div>
+				</div>
+				<div class="grid__column-4">
+					<p></p>
+				</div>
+				<div class="grid__column-4">
+                <p>
+				    <i class="fa fa-instagram" aria-hidden="true"></i>
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                    <i class="fa fa-behance" aria-hidden="true"></i>
+                </p>
+			    </div>
+            </div>
+          </footer>
+        </div>
+      </div>
+    </div>
+</body>
 
 </html>
