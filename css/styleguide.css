@@ -108,9 +108,15 @@ footer{
     color: #1f2327;
 }
 
+
+
 .foto {
     width: 260px;
     margin-bottom: 15px;
+}
+
+.big {
+    width: 450px;
 }
 
 .grayscale {
