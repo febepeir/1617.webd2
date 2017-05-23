@@ -1,5 +1,5 @@
 body {
-    background-color: #f6f7f8;
+    background-color: #f0f5f9;
 }
 
 h1,h2 {
@@ -9,13 +9,13 @@ h1,h2 {
 h1 {
     font-size: 32px;
     font-weight: bold;
-    color: #3f2931;
+    color: #0d7377;
 }
 
 h2 {
     font-size: 24px;
     font-weight: bold;
-    color: #715860;
+    color: #14aeb4;
 }
 
 p {
@@ -34,12 +34,12 @@ nav ul {
 
 nav a {
     text-decoration: none;
-    color: #6a6d74;
+    color: #53616b;
 }
 
 nav a:hover{
-    background-color: #1f2327;
-    color: #f6f7f8;
+    background-color: #1a1a1b;
+    color: #f0f5f9;
 }
 
 footer{
@@ -63,19 +63,23 @@ footer{
 }
 
 .color_a {
-    background-color: #1f2327;
+    background-color: #1a1a1b;
 }
 .color_b {
-    background-color: #6a6d74;
+    background-color: #53616b;
 }
 .color_c {
-    background-color: #f6f7f8;
+    background-color: #f0f5f9;
 }
 .color_d {
-    background-color: #3f2931;
+    background-color: #0d7377;
 }
 .color_e {
-    background-color: #715860;
+    background-color: #14aeb4;
+}
+
+.white {
+    color: white;
 }
 
 .logo {
@@ -84,8 +88,8 @@ footer{
 }
 
 .footer {
-    background-color: #1f2327;
-    color: #f6f7f8;
+    background-color: #1a1a1b;
+    color: #f0f5f9;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -101,15 +105,15 @@ footer{
 }
 
 .fa-2x {
-    color: #1f2327;
+    color: #1a1a1b;
 }
 
 .fa-3x {
-    color: #1f2327;
+    color: #1a1a1b;
 }
 
 .icon {
-    color: #1f2327;
+    color: #1a1a1b;
 }
 
 .foto {
@@ -141,11 +145,11 @@ footer{
     border-radius: 4px;
     border-style: solid;
     border-width: 3px;
-    border-color: #1f2327;
+    border-color: #1a1a1b;
     display: inline-block;
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
-    color: #1f2327;
+    color: #1a1a1b;
     padding: 10px 15px;
     margin-bottom: 20px;
     text-decoration: none;
@@ -154,8 +158,8 @@ footer{
 }
 
 .button:hover {
-    background-color: #1f2327;
-    color: #f6f7f8;
+    background-color: #1a1a1b;
+    color: #f0f5f9;
 }
 
 .footernav {
@@ -164,7 +168,7 @@ footer{
 }
 
 .button--footer {
-    color: #f6f7f8;
+    color: #f0f5f9;
     text-decoration: none; 
 
 }
@@ -182,4 +186,15 @@ footer{
     font-size: 28px;
     padding: 10px 25px;
     margin-top: 25px;
+}
+
+.copy {
+    font-size: 14px;
+    text-align: right;
+    padding-right: 15px;
+}
+
+.right {
+    padding-top: 20px;
+    text-align: right;
 }
