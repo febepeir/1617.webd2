@@ -116,6 +116,12 @@ footer{
     color: #1a1a1b;
 }
 
+.contact {
+    padding-bottom: 20px;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+}
+
 .foto {
     width: 260px;
     margin-bottom: 15px;
