@@ -44,10 +44,10 @@
     <!-- Stylesheets: Vendors -->
     <link rel="stylesheet" media="all" href="vendor/normalize/normalize.css">
     <!-- Stylesheets: App -->
-    <link rel="stylesheet" media="all" href="css/fonts.css">
-    <link rel="stylesheet" media="all" href="css/typography.css">
-    <link rel="stylesheet" media="all" href="css/grid.css">
-    <link rel="stylesheet" media="all" href="css/styleguide.css">
+    <link rel="stylesheet" media="all" href="../css/fonts.css">
+    <link rel="stylesheet" media="all" href="../css/typography.css">
+    <link rel="stylesheet" media="all" href="../css/grid.css">
+    <link rel="stylesheet" media="all" href="../css/styleguide.css">
      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Modernizr: feature detection -->
     <script src="vendor/modernizr/modernizr.min.js"></script>
@@ -59,7 +59,7 @@
         <div class="grid__row">
           <div class="grid__column-12">
             <article class="news-article">
-              <img class="logo" src="images/logo.png" alt="logo"/>
+              <img class="logo" src="../assets/images/logo.png" alt="logo"/>
             </article>
           </div>
         </div>
@@ -81,58 +81,63 @@
                             <li>
                                 <a href="team.html">Team</a>
                             </li>
-                            <li>
+                            <li class="nav-item--active">
                                 <a href="contact.html">Contact</a>
-                            </li>
-                            <li>
-                                <a href="styleguide.html">Styleguide</a>
                             </li>
                         </ul>
                     </nav>
                 </div>
-                <div class="grid__column-5">
-                    <img class="foto big" src="images/memo.jpg"/>
+                <div class="grid__column-6">
+                    <h1>Contact info</h1>
+                        <ul class="fa-ul">
+                            <li class="contact"><i class="fa-li fa fa-envelope-o"></i>flow@info.be</li>
+                            <li class="contact"><i class="fa-li fa fa-phone"></i>0471/23.45.67</li>
+                            <li class="contact"><i class="fa-li fa fa-map-o"></i>Industrieweg 232<br> 9030 Gent</li>
+                        </ul>
+
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2506.1746599151925!2d3.669471915551769!3d51.086784079568275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c37049bd261195%3A0x452db3772cf6728a!2sIndustrieweg+232%2C+9030+Gent!5e0!3m2!1snl!2sbe!4v1495532109978" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+                     <h1>Contactformulier</h1>
+                        <form>
+                            <p>Naam:<br>
+                            <input type="text" name="naam" size="40"/>
+                            </p>
+                            <p>E-mailadres:<br>
+                            <input type="text" name="e-mail" size="40"/>
+                            </p>
+                            <p>Bericht<br>
+                            <textarea name="bericht" cols="43" rows="10"></textarea>
+                            </p>
+                        </form>
+                        <a href="#" class="button">Verzend</a>
                 </div>
-                <div class="grid__column-5">
-                    <h1>Memo</h1>
-                    <a href="portfolio.html" class="button">Back</a>
-                </div>
-            </div>
             </div>
 
         </div>
     </div>
 
-    <div class="grid__wrapper">
+    <div class="grid__wrapper footer">
     <div class="grid__container">
       <div class="grid__row">
-        <div class="grid__column-12 footer">
+        <div class="grid__column-12">
           <footer>
             <div class="grid__row">
-				<div class="grid__column-4">
+			    <div class="grid__column-4">
                     <div class="footernav">
                         <a href="portfolio.html" class="button--footer">Portfolio</a>
                         <a href="about.html" class="button--footer">About</a>
                         <a href="team.html" class="button--footer">Team</a>
                         <a href="contact.html" class="button--footer">Contact</a>
                     </div>
-                </div>
-                <div class="grid__column-4">
-                    <p></p>
-                </div>
-                <div class="grid__column-4">
+				</div>
+				<div class="grid__column-4 grid__offset-4">
                     <div class="right">
                         <a href="https://www.instagram.com/?hl=nl" class="button--footer"><i class="fa fa-instagram" aria-hidden="true"></i></a>
                         <a href="https://www.behance.net/" class="button--footer"><i class="fa fa-behance" aria-hidden="true"></i></i></a>
                         <a href="https://www.facebook.com/" class="button--footer"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                        <p class="copy">&copy; Febe Peirsman</p>
                     </div>
 				</div>
-            </div>
-
-            <div class="grid__row">
-                <div class="grid__column-12">
-                    <p class="copy">&copy; Febe Peirsman</p>
-                </div>
             </div>
           </footer>
         </div>
