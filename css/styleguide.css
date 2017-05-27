@@ -91,6 +91,7 @@ footer{
     background-color: #1a1a1b;
     color: #f0f5f9;
     font-family: 'Montserrat', sans-serif;
+    margin-top: 50px;
 }
 
 .footermenu{
@@ -139,6 +140,10 @@ footer{
 
 .big {
     width: 450px;
+}
+
+.team {
+    width: 915px;
 }
 
 .grayscale {
